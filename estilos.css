@@ -18,7 +18,7 @@
     margin-right: 300px; */
     display: flexbox;             /* Flexbox se creó para diseños de una dimensión, en una fila o una columna. */
     padding: 10px;                /* En cambio CSS Grid Layout se pensó para el diseño bidimensional, */
-    height: 650px;                      /*  en varias filas y columnas al mismo tiempo. */
+    height: 700px;                      /*  en varias filas y columnas al mismo tiempo. */
     background-color:yellow;
     /* justify-content: center ; */
     text-align: center;
@@ -27,7 +27,7 @@
   .greeting {
     text-align: center;
     } 
-    
+
   .piedepagina{
     display: grid; /* grid es para cuando tenemos un boton*/
     padding: 10px;
