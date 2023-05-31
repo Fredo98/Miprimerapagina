@@ -23,6 +23,11 @@
     /* justify-content: center ; */
     text-align: center;
   }
+  
+  .greeting {
+    text-align: center;
+    } 
+    
   .piedepagina{
     display: grid; /* grid es para cuando tenemos un boton*/
     padding: 10px;
