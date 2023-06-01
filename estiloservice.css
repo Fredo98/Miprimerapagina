@@ -9,12 +9,21 @@
   
 }
 .container-nav {
-    display: flex;
+    display: grid;
     padding: 10px;
-    height: 150px;
+    height: 250px;
     background-color: cyan;
   }
+
+.servicios{
+  display:grid;
+  justify-content: center;
+  text-align: left;
+  list-style-type:circle ;
   
+
+
+}
   
   .navbar {
     display: flex;
