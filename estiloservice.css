@@ -12,18 +12,35 @@
     display: grid;
     padding: 10px;
     height: 250px;
-    background-color: cyan;
+    background-color: blue;
   }
 
 .servicios{
-  display:grid;
-  justify-content: center;
-  text-align: left;
-  list-style-type:circle ;
-  
-
-
+  display: grid;
+  text-align:left;
+  list-style: none;
+  padding-left: 0;
+  justify-content:center;
 }
+  
+.servicios li {
+  position: relative;
+  padding-left: 20px;
+  
+}
+.servicios li:before{
+  content: '';
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-image: url('Image20230531211416.png');
+  background-size: cover;
+  background-position: center;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
   
   .navbar {
     display: flex;
